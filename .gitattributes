@@ -1,0 +1,13 @@
+* text=auto
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
+/.github export-ignore
+CHANGELOG.md export-ignore
+.styleci.yml export-ignore
+D:/coding-work/upwork-scrapingwebsiteproject/metronic_laravel_v8.2.5/starterkit/node_modules filter=lfs diff=lfs merge=lfs -text
+D:/coding-work/upwork-scrapingwebsiteproject/metronic_laravel_v8.2.5/starterkit/resources filter=lfs diff=lfs merge=lfs -text
+D:/coding-work/upwork-scrapingwebsiteproject/metronic_laravel_v8.2.5/starterkit/vendor filter=lfs diff=lfs merge=lfs -text
+public/assets/plugins/global/plugins.bundle.rtl.css filter=lfs diff=lfs merge=lfs -text
